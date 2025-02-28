@@ -44,7 +44,7 @@ npm install
 4. Inicia el servidor:
 
 ```bash
-npm start
+npx json-server --watch server/db.json
 ```
 
 5. Abre `index.html` en tu navegador o configura un servidor web estático

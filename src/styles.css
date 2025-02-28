@@ -1,5 +1,4 @@
 :root {
-    /* Nueva paleta de colores */
     --primary-color: #5D4037;     /* Marrón cálido, como de madera o libros antiguos */
     --secondary-color: #8D6E63;   /* Marrón más claro para acentos */
     --accent-color: #FF9800;      /* Naranja cálido para acentos y botones */
@@ -19,7 +18,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;  /* Cambiado a Inter para un look más moderno */
+    font-family: 'Inter', sans-serif; 
     background-color: var(--background-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -31,7 +30,6 @@ body {
     padding: 20px;
 }
 
-/* Header con estilo mejorado */
 .header {
     background-color: var(--primary-color);
     color: white;
@@ -119,7 +117,6 @@ input:focus {
     box-shadow: 0 0 0 3px rgba(255, 152, 0, 0.2);
 }
 
-/* Botones con estilo mejorado */
 .btn-primary {
     background-color: var(--accent-color);
     color: white;
